@@ -14,11 +14,11 @@ filter: 'category'
 recent_num: 20
 
 # Social account
-twitter: buxiashan
-weibo: buxiashan
+#twitter: buxiashan #暂时注释掉
+#weibo: buxiashan #暂时注释掉
 github: buxiashan
-instagram: suyan404
-linkedin: suyan404
+#instagram: suyan404 #暂时注释掉
+#linkedin: suyan404  #暂时注释掉
 
 # avatar and Favicon
 avatar: https://avatars2.githubusercontent.com/u/37115777?s=460&v=4
@@ -31,7 +31,7 @@ disqus:
 # google analytics config
 ga:
   id: UA-54767140-1
-  url: yansu.org
+  url: https://buxiashan.github.io/ 
 
 # Build settings
 permalink: /:year/:month/:day/:title.html
