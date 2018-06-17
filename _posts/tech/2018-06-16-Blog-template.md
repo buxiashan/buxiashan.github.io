@@ -153,5 +153,32 @@ Big Size
 Time New Roman
 
 话说嵌入这些格式化字体的HTML标签后，整个文本显得臃肿了不少。这有悖于Markdown注重文本内容、精简格式化标签的理念，因此文本特效神马的，能不用就尽量不用，这些统统扔给CSS去解决，我们只关注文本内容。
+---
+```
+<font face="黑体">我是黑体字</font>
+<font face="微软雅黑">我是微软雅黑</font>
+<font face="STCAIYUN">我是华文彩云</font>
+<font color=#0099ff size=7 face="黑体">color=#0099ff size=72 face="黑体"</font>
+<font color=#00ffff size=72>color=#00ffff</font>
+<font color=gray size=72>color=gray</font>
+```
+效果如下所示：
+<font face="黑体">我是黑体字</font>  
+<font face="微软雅黑">我是微软雅黑</font>  
+<font face="STCAIYUN">我是华文彩云</font>  
+<font color=#0099ff size=7 face="黑体">color=#0099ff size=72 face="黑体"</font>  
+<font color=#00ffff size=72>color=#00ffff</font>  
+<font color=gray size=72>color=gray</font>
+
+
+Size：规定文本的尺寸大小。可能的值：从 1 到 7 的数字。浏览器默认值是 3
 
 ---
+###背景色
+Markdown本身不支持背景色设置，需要采用内置html的方式实现：借助 table, tr, td 等表格标签的 bgcolor 属性来实现背景色的功能。举例如下：
+
+<table><tr><td bgcolor=orange>背景色是：orange</td></tr></table>
+效果如下：
+背景色是：orange2015/12/19 16:04:07  
+
+备注：Markdown理念是快速书写文本格式，对于设置颜色这种效果的设置不建议使用；
