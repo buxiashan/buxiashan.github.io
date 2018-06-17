@@ -83,7 +83,7 @@ def xxx:
 
 `This is a code by backtick`  
 
-测试一下:  
+测试一下:
 ```python
 import configparser
 import os
@@ -124,7 +124,7 @@ def log(result):
         pprint.pprint('execute API Failed:%s'%result)
 
 ```
-
+</font>
 ---
 ### 字体
 有人会问，这货能改变颜色麽？额，貌似Markdown基本语法不支持任意更改颜色的功能。Markdown的理念是——注重文本本身，特效神马的交给CSS搞定。当然了，既然这货支持HTML嵌套，我们可以利用HTML标记实现更改颜色的需求。
@@ -153,6 +153,7 @@ Big Size
 Time New Roman
 
 话说嵌入这些格式化字体的HTML标签后，整个文本显得臃肿了不少。这有悖于Markdown注重文本内容、精简格式化标签的理念，因此文本特效神马的，能不用就尽量不用，这些统统扔给CSS去解决，我们只关注文本内容。
+
 ---
 ```
 <font face="黑体">我是黑体字</font>
@@ -162,7 +163,7 @@ Time New Roman
 <font color=#00ffff size=72>color=#00ffff</font>
 <font color=gray size=72>color=gray</font>
 ```
-效果如下所示：
+效果如下所示： 
 <font face="黑体">我是黑体字</font>  
 <font face="微软雅黑">我是微软雅黑</font>  
 <font face="STCAIYUN">我是华文彩云</font>  
