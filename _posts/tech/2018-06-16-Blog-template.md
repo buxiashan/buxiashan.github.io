@@ -124,6 +124,7 @@ def log(result):
         pprint.pprint('execute API Failed:%s'%result)
 
 ```
+
 ---
 ### 字体
 有人会问，这货能改变颜色麽？额，貌似Markdown基本语法不支持任意更改颜色的功能。Markdown的理念是——注重文本本身，特效神马的交给CSS搞定。当然了，既然这货支持HTML嵌套，我们可以利用HTML标记实现更改颜色的需求。
