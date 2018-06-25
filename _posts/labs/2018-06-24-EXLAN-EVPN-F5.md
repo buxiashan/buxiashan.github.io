@@ -838,6 +838,7 @@ router bgp 200
 #  查看相关信息
 
 1. 外部设备检查到F5 VS网段路由和连通性
+
 ```
 DMHQ-6509-1#show ip route B
 Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
@@ -876,6 +877,7 @@ DMHQ-6509-1#
 ```
 
 2. 查看VXLAN相关状态
+
 ```
 DMDC-N9K-Leaf3# show int nve 1
 nve1 is up
